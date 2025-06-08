@@ -1,20 +1,25 @@
 {
-  "name": "autocred-frontend-saas",
-  "version": "1.0.0",
-  "description": "AutoCred Frontend SaaS - Integração com Evolution API",
-  "main": "index.html",
+  "name": "autocred-frontend-railway",
+  "version": "3.0.0",
+  "description": "AutoCred WhatsApp SaaS Frontend - Railway Edition",
+  "main": "server.js",
   "scripts": {
-    "start": "npx serve . -s -l 3000",
-    "build": "echo 'Frontend estático pronto'",
-    "dev": "npx serve . -s -l 3000"
-  },
-  "dependencies": {
-    "serve": "^14.2.1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   },
-  "keywords": ["whatsapp", "frontend", "saas", "autocred", "evolution-api"],
-  "author": "AutoCred",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": [
+    "autocred",
+    "whatsapp",
+    "saas",
+    "railway",
+    "frontend"
+  ],
+  "author": "AutoCred Team",
   "license": "MIT"
 } 
