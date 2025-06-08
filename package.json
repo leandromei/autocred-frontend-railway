@@ -1,0 +1,20 @@
+{
+  "name": "autocred-frontend-saas",
+  "version": "1.0.0",
+  "description": "AutoCred Frontend SaaS - Integração com Evolution API",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -s -l 3000",
+    "build": "echo 'Frontend estático pronto'",
+    "dev": "npx serve . -s -l 3000"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["whatsapp", "frontend", "saas", "autocred", "evolution-api"],
+  "author": "AutoCred",
+  "license": "MIT"
+} 
